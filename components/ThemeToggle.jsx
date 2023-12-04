@@ -2,6 +2,7 @@
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import { useState } from 'react';
 
+//setup object
 const themes = {
   winter: 'winter',
   dracula: 'dracula'
