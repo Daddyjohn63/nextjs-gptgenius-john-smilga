@@ -9,7 +9,7 @@ import {
 const AllToursPage = async () => {
   const queryClient = new QueryClient();
   await queryClient.prefetchQuery({
-    queryKey: ['tours', ''],
+    queryKey: ['tours', ''], //the '' denotes the default query in the search which will be blank
     queryFn: () => getAllTours()
   });
   return (
