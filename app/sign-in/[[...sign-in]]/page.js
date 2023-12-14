@@ -8,3 +8,11 @@ const SignInPage = () => {
   );
 };
 export default SignInPage;
+
+{
+  /* <SignUp
+  path="/sign-up"
+  routing="path"
+  onSignIn={() => router.push('/your-desired-path')}
+/>; */
+}
